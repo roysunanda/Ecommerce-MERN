@@ -1,2 +1,3 @@
 # Ecommerce-MERN
-An Ecommerce Platform using MERN Stack.
+
+Building an Ecommerce Platform using MERN Stack.
