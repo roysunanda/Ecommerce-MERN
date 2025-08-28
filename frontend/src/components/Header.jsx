@@ -1,10 +1,10 @@
 import { Navbar, Nav, Container } from "react-bootstrap";
 import { FaShoppingCart, FaUser } from "react-icons/fa";
 
-export const Header = () => {
+const Header = () => {
   return (
     <header>
-      <Navbar bg='dark' variant='dark' expand='lg' collapseOnSelect>
+      <Navbar bg='dark' variant='dark' expand='md' collapseOnSelect>
         <Container>
           <Navbar.Brand href='/'>ProShop</Navbar.Brand>
           <Navbar.Toggle aria-controls='basic-navbar-nav' />
@@ -13,6 +13,9 @@ export const Header = () => {
               <Nav.Link href='/cart'>
                 <FaShoppingCart /> Cart
               </Nav.Link>
+              <Nav.Link href='/login'>
+                <FaUser /> Sign In
+              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Container>
@@ -20,3 +23,5 @@ export const Header = () => {
     </header>
   );
 };
+
+export default Header;
