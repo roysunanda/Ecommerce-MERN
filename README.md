@@ -1,3 +1,3 @@
-# Ecommerce-MERN
+# REST API
 
-Building an Ecommerce Platform using MERN Stack.
+Building A REST API With Node, Express, TypeScript & MongoDB + Authentication.
