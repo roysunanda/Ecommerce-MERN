@@ -1,14 +1,22 @@
+<div align="center">
+
 # Chat App with Image Upload
 
-### Tech Stack :
+> [!WARNING] > <em>Work in Progress</em>
 
-<table><tr>
+### Tech Stack
+
+<table>
+<tr>
 <td>React</td>
-<td>React</td>
+<td>Tailwind</td>
 <td>Zustand</td>
-<td>JWT</td>
+<td>DaisyUI</td>
+<td>Node.js</td>
+<td>Express</td>
+<td>MongoDB</td>
 <td>Socket.io</td>
-</tr></table>
+</tr>
+</table>
 
-> [!CAUTION]
-> Work in Progress
+</div>
