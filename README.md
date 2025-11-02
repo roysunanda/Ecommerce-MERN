@@ -24,9 +24,18 @@
 ### Task List
 
 - [x] Project setup (Backend)
-- [ ] Database setup
+- [x] Database setup
 - [ ] Signup (Backend)
 - [ ] Login, Logout & Update Profile (Backend)
+- [ ] Message Routes
+- [ ] Frontend setup
+- [ ] Login & Sign up pages (Frontend)
+- [ ] Profile page
+- [ ] Settings page
+- [ ] Sidebar
+- [ ] Chat container
+- [ ] Socket.io implementation
+- [ ] Deployment
 
 <a href='https://linktr.ee/roysunanda' target='_blank'> <img src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2tpYmV4NGFhZmM4emgxdXhicXN6d3gwcTlna3R4ejhqNHcwaTBjbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/aFN9DbzlT3leXW0zt8/giphy.gif' width="200" /> </a>
 
