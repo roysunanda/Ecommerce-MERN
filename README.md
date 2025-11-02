@@ -1,3 +1,14 @@
-# REST API
+# Chat App with Image Upload
 
-Building A REST API With Node, Express, TypeScript & MongoDB + Authentication.
+### Tech Stack :
+
+<table><tr>
+<td>React</td>
+<td>React</td>
+<td>Zustand</td>
+<td>JWT</td>
+<td>Socket.io</td>
+</tr></table>
+
+> [!CAUTION]
+> Work in Progress
