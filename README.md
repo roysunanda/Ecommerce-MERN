@@ -20,7 +20,6 @@
 </table>
 
 </br>
-</br>
 
 <table>
 <tr>
@@ -33,7 +32,7 @@
     <td>☑️ Database setup</td>
   </tr>
   <tr>
-    <td>📌 Signup (Backend)</td>
+    <td>☑️ Signup (Backend)</td>
   </tr>
   <tr>
     <td>📌 Login, Logout & Update Profile (Backend)</td>
