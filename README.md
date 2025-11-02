@@ -21,7 +21,11 @@
 
 </br>
 
+<div style="width:50%; border: 2px solid black">
+
 ### Task List
+
+<div align="left">
 
 - [x] Project setup (Backend)
 - [x] Database setup
@@ -36,6 +40,10 @@
 - [ ] Chat container
 - [ ] Socket.io implementation
 - [ ] Deployment
+
+</div>
+
+</div>
 
 <a href='https://linktr.ee/roysunanda' target='_blank'> <img src='https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExM2tpYmV4NGFhZmM4emgxdXhicXN6d3gwcTlna3R4ejhqNHcwaTBjbSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/aFN9DbzlT3leXW0zt8/giphy.gif' width="200" /> </a>
 
