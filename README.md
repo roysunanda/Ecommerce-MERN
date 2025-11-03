@@ -23,7 +23,7 @@
 
 <table>
 <tr>
-<th>Task list</th>
+<th>Task List</th>
 </tr>
   <tr>
     <td>☑️ Project setup (Backend)</td>
