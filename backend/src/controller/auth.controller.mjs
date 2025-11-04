@@ -5,18 +5,18 @@ import bcrypt from "bcryptjs";
 export const signup = async (req, res) => {
   const { fullName, email, password } = req.body;
   try {
-    if (!fullName || !email || !password) {
-      return res
-        .status(400)
-        .json({ success: false, msg: `all fields are required.` });
-    }
+    // if (!fullName || !email || !password) {
+    //   return res
+    //     .status(400)
+    //     .json({ success: false, msg: `all fields are required.` });
+    // }
 
-    if (password.length < 6) {
-      return res.status(400).json({
-        success: false,
-        msg: `password must be atleast 6 characters.`,
-      });
-    }
+    // if (password.length < 6) {
+    //   return res.status(400).json({
+    //     success: false,
+    //     msg: `password must be atleast 6 characters.`,
+    //   });
+    // }
     const user = await User.findOne({ email });
     if (user) {
       return res
