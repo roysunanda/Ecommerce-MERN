@@ -32,6 +32,9 @@ importers:
       socket.io:
         specifier: ^4.8.1
         version: 4.8.1
+      zod:
+        specifier: ^4.1.12
+        version: 4.1.12
     devDependencies:
       nodemon:
         specifier: ^3.1.10
@@ -642,6 +645,9 @@ packages:
         optional: true
       utf-8-validate:
         optional: true
+
+  zod@4.1.12:
+    resolution: {integrity: sha512-JInaHOamG8pt5+Ey8kGmdcAcg3OL9reK8ltczgHTAwNhMys/6ThXHityHxVV2p3fkw/c+MAvBHFVYHFZDmjMCQ==}
 
 snapshots:
 
@@ -1276,3 +1282,5 @@ snapshots:
   wrappy@1.0.2: {}
 
   ws@8.17.1: {}
+
+  zod@4.1.12: {}
