@@ -54,6 +54,8 @@ app.get("/", (req, res) => {
 //   }
 // });
 
+// const val = "prod" !== "dev";
+// console.log(`env: ${val}`);
 // !> END: Zod Validation ######################################################
 
 app.listen(PORT, () => {

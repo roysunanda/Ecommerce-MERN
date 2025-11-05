@@ -1,7 +1,11 @@
 import { z } from "zod";
+import { User } from "../model/user.model.mjs";
 
 export const userSchema = z.object({
-  email: z.email(),
+  email: z.email().refine(async (email) => {
+    const existing = await User.findOne({ email });
+    return !existing;
+  }, "email already exist. pick another one."),
   fullName: z.string().min(3, "name must be atleast 3 characters long."),
   password: z
     .string()
@@ -10,8 +14,8 @@ export const userSchema = z.object({
 });
 
 export const userValidate = (userSchema) => {
-  return (req, res, next) => {
-    const result = userSchema.safeParse(req.body);
+  return async (req, res, next) => {
+    const result = await userSchema.safeParseAsync(req.body);
 
     if (!result.success) {
       const err = z.flattenError(result.error);
