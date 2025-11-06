@@ -35,7 +35,7 @@
     <td>☑️ Signup (Backend)</td>
   </tr>
   <tr>
-    <td>📌 Login, Logout & Update Profile (Backend)</td>
+    <td>☑️ Login, Logout & Update Profile (Backend)</td>
   </tr>
   <tr>
     <td>📌 Message Routes</td>
