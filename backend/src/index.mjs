@@ -4,6 +4,7 @@ import { router as authRoutes } from "./route/auth.route.mjs";
 import { connectDB } from "./lib/db.mjs";
 // import { z } from "zod";
 import cookieParser from "cookie-parser";
+import { router as messageRoutes } from "./route/message.route.mjs";
 
 dotenv.config();
 
@@ -14,6 +15,7 @@ app.use(express.json());
 app.use(cookieParser());
 
 app.use("/api/auth", authRoutes);
+app.use("/api/message", messageRoutes);
 
 app.get("/", (req, res) => {
   res.send(`<h1>This is Homepage</h1>`);

@@ -38,7 +38,7 @@
     <td>☑️ Login, Logout & Update Profile (Backend)</td>
   </tr>
   <tr>
-    <td>📌 Message Routes</td>
+    <td>☑️ Message Routes</td>
   </tr>
   <tr>
     <td>📌 Frontend setup</td>
